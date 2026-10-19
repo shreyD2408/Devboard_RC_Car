@@ -161,5 +161,13 @@ Several constants at the beginning of the sketch can be adjusted to change vehic
 # Project Gallery
 
 <img width="500" alt="Screenshot 2026-10-18 215053" src="https://github.com/user-attachments/assets/84f38c41-a624-4d1b-9282-2f408fdfaa0e" />
+<img width="500"  alt="image" src="https://github.com/user-attachments/assets/9694c6ef-7318-45d2-bb62-075faeccc4ff" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/17f32fd8-4674-4f6f-b781-680e791aacf5" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/cd91557c-b3b7-4f05-995a-348a6743b02a" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/90fd09dd-02d7-454d-9d6d-99939ed1164a" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/9b9b6604-39d2-470b-a704-158b1d701747" />
+
+
+
 
 
