@@ -104,6 +104,7 @@ The firmware assigns the following GPIO pins on the ESP32-WROOM development boar
 Install the Arduino IDE and configure support for the ESP32 boards.
 
 [Download Arduino IDE](https://www.arduino.cc/en/software)
+
 [ESP32 Arduino installation guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 
 # Install the required libraries
@@ -152,4 +153,13 @@ Several constants at the beginning of the sketch can be adjusted to change vehic
 | `MAX_SPEED` | 200 | Limits the commanded motor output |
 | `MAX_STEERING` | 40 | Sets the steering range around 90 degrees |
 | `BRAKE_THRESHOLD` | 100 | Sets the L2 trigger threshold for braking |
+
+`MAX_SPEED` is shown as the PWM value on the motors. This value ranges from 0-255 on the firmware's output scale. Changing this value will change the maximum speed accordingly.
+
+`MAX_STEERING` constraints the servo from turning too much. Limits the target servo angle around the center position. **Changing this value is not recommended.**
+
+# Project Gallery
+
+<img width="868" height="625" alt="Screenshot 2026-10-18 215053" src="https://github.com/user-attachments/assets/84f38c41-a624-4d1b-9282-2f408fdfaa0e" />
+
 
