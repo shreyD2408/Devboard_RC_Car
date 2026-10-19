@@ -4,6 +4,8 @@ A custom remote-controlled car powered by a ESP32-WROOM development board. Contr
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/90fd09dd-02d7-454d-9d6d-99939ed1164a"/>
 
+
+
 # Table of Contents
 - Overview
 - Project Goals
@@ -21,6 +23,8 @@ A custom remote-controlled car powered by a ESP32-WROOM development board. Contr
 - Testing & Troubleshooting
 - Firmware Parameters
 - Project Gallery
+
+  
 
 # Overview
 
