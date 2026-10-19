@@ -67,3 +67,43 @@ A joystick deadzone is used for joystick input. A deadzone is a small margin aro
 
 A 18650 Battery Pack provides power the vehicle. Battery must be charged externally.
 
+## Bill of Materials (BOM)
+
+| Item | Qty | Supplier | Cost/Item (CAD) | Total Cost (CAD) | Link |
+|---|---:|---|---:|---:|---|
+| ESP32-WROOM Development Board | 1 | AliExpress | $5.21 | $5.21 | [Purchase Link](https://www.aliexpress.com/item/1005008806241325.html) |
+| 18650 Lithium-Ion Batteries (2-Pack) | 1 | Lord Of Robots | $7.08 | $7.08 | [Purchase Link](https://lordofrobots.com/products/18650b-lithium-ion-battery-2-pcs) |
+| 18650 Battery Holder | 1 | Lord Of Robots | $2.65 | $2.65 | [Purchase Link](https://lordofrobots.com/products/battery-holder-18650) |
+| Elegoo PLA Filament | 1 | Amazon | $14.01 | $14.01 | [Purchase Link](https://www.amazon.ca/ELEGOO-Filament-Dimensional-Accuracy-Compatible/dp/B0BM4F65SL/) |
+| Estimated Shipping | 1 | — | $0.00 | $0.00 | — |
+| **Total** | | | | **$28.95** | |
+
+# Wiring and Pin Assignments
+
+The firmware assigns the following GPIO pins on the ESP32-WROOM development board.
+
+## Wiring and Pin Assignments
+
+| Component | Signal | ESP32 GPIO |
+|---|---|---:|
+| Left motor | Enable / PWM | GPIO 25 |
+| Left motor | IN1 | GPIO 26 |
+| Left motor | IN2 | GPIO 27 |
+| Right motor | Enable / PWM | GPIO 14 |
+| Right motor | IN1 | GPIO 16 |
+| Right motor | IN2 | GPIO 17 |
+| Steering servo | Signal | GPIO 18 |
+| Headlights | Control output | GPIO 21 |
+| Brake lights | Control output | GPIO 22 |
+
+<img width="762" height="822" alt="wiring diagram" src="https://github.com/user-attachments/assets/62d03ebd-a244-4484-adb3-c3df87db6d2e" />
+
+
+# Setup & Installation
+
+Install the Arduino IDE and configure support for the ESP32 boards.
+
+[Download Arduino IDE]([url](https://www.arduino.cc/en/software))
+
+
+
