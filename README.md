@@ -104,6 +104,52 @@ The firmware assigns the following GPIO pins on the ESP32-WROOM development boar
 Install the Arduino IDE and configure support for the ESP32 boards.
 
 [Download Arduino IDE](https://www.arduino.cc/en/software)
+[ESP32 Arduino installation guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 
+# Install the required libraries
 
+Install **Bluepad32** and **ESP32Servo** using their supported installation instructions.
+
+Make sure the installed Bluepad32 version aligns with the selected ESP32 board.
+
+# Upload the Firmware
+
+Open the provided firmware file, configure board and serial port as required and upload the program.
+
+Open the serial monitor and set the baud rate to 115200 to view startup messages and updates.
+
+On startup, the firmware will print out messages to indicate whether the RC car is ready to be paired up with the controller, and the controller should be placed in pairing mode.
+
+Pair the controller by initializing Bluetooth pairing mode, and wait until connected. Once connected, the serial monitor will print a success message, stating you can drive the vehicle.
+
+# Test the vehicle
+
+To initialize testing, raise the car above the ground to test the motors. Ensure the motors spin properly and that the steering mechanism has no flaws.
+
+If the controller has trouble connecting to the car, ensure the Bluepad32 version aligns with the ESP32 Board and is up-to date.
+
+## Testing and Troubleshooting
+
+| Problem | Possible Cause | Suggested Check |
+|---|---|---|
+| Controller will not connect | Pairing or library configuration issue | Check Bluepad32 setup and supported-board instructions |
+| Car drives backwards | Motor polarity or throttle mapping | Reverse the motor wiring or adjust the throttle mapping |
+| Steering is reversed | Servo orientation or input mapping | Reverse the steering mapping or linkage direction |
+| Motors do not move | Incorrect motor-driver wiring or insufficient supply | Verify enable pins, direction inputs, motor voltage, and ground |
+| ESP32 resets when motors start | Power supply cannot handle current peaks or electrical noise | Check the supply rating, wiring, decoupling, and grounding |
+| Servo jitters | Inadequate power, noisy wiring, or mechanical binding | Check servo supply stability and the steering linkage |
+| Headlights toggle unexpectedly | Button mapping or input handling issue | Verify the button reading and edge-detection logic |
+| Brake lights stay on | The brake trigger is active or the throttle has just returned to neutral | Check the brake threshold and output polarity |
+| Car drifts while driving straight | Unequal motors, wheel alignment, or mechanical friction | Inspect the drivetrain and consider separate left/right speed calibration |
+
+# Firmware Parameters
+
+Several constants at the beginning of the sketch can be adjusted to change vehicle behavior.
+
+| Parameter | Current Value | Purpose |
+|---|---:|---|
+| `DEADZONE` | 40 | Ignores small joystick readings |
+| `MAX_SPEED` | 200 | Limits the commanded motor output |
+| `MAX_STEERING` | 40 | Sets the steering range around 90 degrees |
+| `BRAKE_THRESHOLD` | 100 | Sets the L2 trigger threshold for braking |
 
