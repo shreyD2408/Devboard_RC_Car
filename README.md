@@ -4,6 +4,24 @@ A custom remote-controlled car powered by a ESP32-WROOM development board. Contr
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/90fd09dd-02d7-454d-9d6d-99939ed1164a"/>
 
+# Table of Contents
+- Overview
+- Project Goals
+- Features
+- How it Works
+- Controller Interface
+- Controller Mapping
+- Power Supply
+- Bill of Materials (BOM)
+- Wiring and Pin Assignments
+- Setup & Installation
+- Install the required libraries
+- Upload the firmware
+- Test the vehicle
+- Testing & Troubleshooting
+- Firmware Parameters
+- Project Gallery
+
 # Overview
 
 The project is an RC Car built using the ESP32 microcontroller that can be controlled by a PS5 DualSense wireless controller, rather than a traditional RC transmitter. Controller input is sent via bluetooth to the ESP32 which sends electrical signals to the car's driver motors, steering servo, headlights, and brake lights.
