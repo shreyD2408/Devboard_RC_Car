@@ -160,6 +160,6 @@ Several constants at the beginning of the sketch can be adjusted to change vehic
 
 # Project Gallery
 
-<img width="868" height="625" alt="Screenshot 2026-10-18 215053" src="https://github.com/user-attachments/assets/84f38c41-a624-4d1b-9282-2f408fdfaa0e" />
+<img width="500" alt="Screenshot 2026-10-18 215053" src="https://github.com/user-attachments/assets/84f38c41-a624-4d1b-9282-2f408fdfaa0e" />
 
 
