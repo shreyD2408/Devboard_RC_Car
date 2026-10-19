@@ -168,6 +168,18 @@ Several constants at the beginning of the sketch can be adjusted to change vehic
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/9b9b6604-39d2-470b-a704-158b1d701747" />
 
 
+# Repository Structure
 
+Devboard_RC_Car/
+├── README.md
+├── firmware/
+│   └── rc_car.ino
+├── docs/
+│   ├── 3d-model.png
+│   ├── schematic.png
+│   ├── board-layout.png
+│   ├── wiring-diagram.png
+│   └── completed-car.jpg
+└── LICENSE
 
 
