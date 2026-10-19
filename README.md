@@ -69,7 +69,7 @@ A 18650 Battery Pack provides power the vehicle. Battery must be charged externa
 
 ## Bill of Materials (BOM)
 
-| Item | Qty | Supplier | Cost/Item (CAD) | Total Cost (CAD) | Link |
+| Item | Qty | Supplier | Cost/Item (USD) | Total Cost (USD) | Link |
 |---|---:|---|---:|---:|---|
 | ESP32-WROOM Development Board | 1 | AliExpress | $5.21 | $5.21 | [Purchase Link](https://www.aliexpress.com/item/1005008806241325.html) |
 | 18650 Lithium-Ion Batteries (2-Pack) | 1 | Lord Of Robots | $7.08 | $7.08 | [Purchase Link](https://lordofrobots.com/products/18650b-lithium-ion-battery-2-pcs) |
