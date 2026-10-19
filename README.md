@@ -17,12 +17,12 @@ It's no dedicated RC receiver, but instead, the signals for controlling the vehi
 The main goal is to build a functional RC car using accessible electronic components and custom Arduino firmware.
 
 The project focuses on:
- - Embedded systems: Using an ESP32 to process inputs and control multiple hardware components.
- - Wireless communication: Connecting a PS5 controller to the car using Bluetooth
- - Motor control: Controlling the direction and speed of DC motors through a motor driver.
- - Mechanical systems: Translating servo rotation into physical steering movement
- - Vehicle lighting: Implementing headlights and brake lights that respond to driver inputs
- - Fail-Safe behavior: Stopping the drive motors and centering the steering when the controller disconnects.
+ - **Embedded systems**: Using an ESP32 to process inputs and control multiple hardware components.
+ - **Wireless communication**: Connecting a PS5 controller to the car using Bluetooth
+ - **Motor control**: Controlling the direction and speed of DC motors through a motor driver.
+ - **Mechanical systems**: Translating servo rotation into physical steering movement
+ - **Vehicle lighting**: Implementing headlights and brake lights that respond to driver inputs
+ - **Fail-Safe behavior**: Stopping the drive motors and centering the steering when the controller disconnects.
 
 ## Features
 
