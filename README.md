@@ -54,3 +54,15 @@ The project focuses on:
 | Brake lights | Activates the brake lights when braking or when throttle returns to neutral |
 | Input deadzone | Filters small joystick movements to reduce unintended motion |
 | Controller disconnect handling | Stops the motors and centers the steering when the controller disconnects |
+
+# How it works:
+
+The car is divided into four main systems: the controller interface, the ESP32 control system, the motor and steering system, and the lighting system.
+
+# Controller Interface
+
+The PS5 DualSense controller gives the driver their input. It connects to the ESP32 via Bluetooth with the BluePad32 Library, with joysticks and buttons.
+
+The firmware is constantly reading the values from the controller. These are the throttle, steering position, braking, and lighting commands requested by the driver.
+
+A joystick deadzone is used for joystick input. A deadzone is a small margin around the neutral position of the joysticks in which moving the joysticks is considered neglectable. This is useful to prevent unwanted movements from small changes in the joystick readings.
