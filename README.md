@@ -2,23 +2,6 @@
 
 A custom remote-controlled car powered by a ESP32-WROOM development board. Controlled wirelessly by a PlayStation 5 (DualSense) Controller. This custom RC Car integrates motor control, mechanical steering, wireless communication, and embedded programming into one project.
 
-# Table of Contents
-
-- Overview
-- Project Goals
-- Features
-- How it Works
-- Controller Mapping
-- Hardware Components
-- Bill of Materials
-- Wiring and Pin Assignments
-- Software and Libraries
-- Setup and Installation
-- Testing and Troubleshooting
-- Safety Considerations
-- Project Gallery
-- Future Improvements
-
 # Overview
 
 The project is an RC Car built using the ESP32 microcontroller that can be controlled by a PS5 DualSense wireless controller, rather than a traditional RC transmitter. Controller input is sent via bluetooth to the ESP32 which sends electrical signals to the car's driver motors, steering servo, headlights, and brake lights.
@@ -66,3 +49,21 @@ The PS5 DualSense controller gives the driver their input. It connects to the ES
 The firmware is constantly reading the values from the controller. These are the throttle, steering position, braking, and lighting commands requested by the driver.
 
 A joystick deadzone is used for joystick input. A deadzone is a small margin around the neutral position of the joysticks in which moving the joysticks is considered neglectable. This is useful to prevent unwanted movements from small changes in the joystick readings.
+
+## Controller Mapping
+
+| PS5 Controller Input | Function |
+|---|---|
+| Left joystick up | Drive forward |
+| Left joystick down | Drive in reverse |
+| Left joystick neutral | Stop commanded propulsion |
+| Right joystick left | Steer left |
+| Right joystick right | Steer right |
+| Triangle button | Toggle headlights |
+| L2 trigger | Apply the programmed brake command |
+| Controller disconnect | Stop motors and centre steering |
+
+# Power Supply
+
+A 18650 Battery Pack provides power the vehicle. Battery must be charged externally.
+
