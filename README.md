@@ -103,7 +103,7 @@ The firmware assigns the following GPIO pins on the ESP32-WROOM development boar
 
 Install the Arduino IDE and configure support for the ESP32 boards.
 
-[Download Arduino IDE]([url](https://www.arduino.cc/en/software))
+[Download Arduino IDE](https://www.arduino.cc/en/software)
 
 
 
