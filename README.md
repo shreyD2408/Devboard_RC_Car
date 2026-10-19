@@ -98,7 +98,7 @@ A 18650 Battery Pack provides power the vehicle. Battery must be charged externa
 | ESP32-WROOM Development Board | 1 | AliExpress | $5.21 | $5.21 | [Purchase Link](https://www.aliexpress.com/item/1005008806241325.html) |
 | 18650 Lithium-Ion Batteries (2-Pack) | 1 | Lord Of Robots | $7.08 | $7.08 | [Purchase Link](https://lordofrobots.com/products/18650b-lithium-ion-battery-2-pcs) |
 | 18650 Battery Holder | 1 | Lord Of Robots | $2.65 | $2.65 | [Purchase Link](https://lordofrobots.com/products/battery-holder-18650) |
-| Elegoo PLA Filament | 1 | Amazon | $14.01 | $14.01 | [Purchase Link](https://www.amazon.ca/ELEGOO-Filament-Dimensional-Accuracy-Compatible/dp/B0BM4F65SL/) |
+| Elegoo PLA Filament (~200g) | 1 | Amazon | $14.01 | $14.01 | [Purchase Link](https://www.amazon.ca/ELEGOO-Filament-Dimensional-Accuracy-Compatible/dp/B0BM4F65SL/) |
 | Estimated Shipping | 1 | — | $0.00 | $0.00 | — |
 | **Total** | | | | **$28.95** | |
 
