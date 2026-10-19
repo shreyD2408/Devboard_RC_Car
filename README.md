@@ -1,4 +1,4 @@
-# Devboard_RC_Car
+# Custom Bluetooth RC Car
 
 A custom remote-controlled car powered by a ESP32-WROOM development board. Controlled wirelessly by a PlayStation 5 (DualSense) Controller. This custom RC Car integrates motor control, mechanical steering, wireless communication, and embedded programming into one project.
 
