@@ -2,6 +2,8 @@
 
 A custom remote-controlled car powered by a ESP32-WROOM development board. Controlled wirelessly by a PlayStation 5 (DualSense) Controller. This custom RC Car integrates motor control, mechanical steering, wireless communication, and embedded programming into one project.
 
+Onshape Link: https://cad.onshape.com/documents/7fadd3b9f5a7a1081296b51e/w/37c73749ba8d0e2920179faa/e/973104e577dbea05e18c2e68?renderMode=0&uiState=6ade726cd2acbed48b6aa767
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/90fd09dd-02d7-454d-9d6d-99939ed1164a"/>
 
 
